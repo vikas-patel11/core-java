@@ -1,0 +1,32 @@
+intermediate operation
+
+1. filter()
+2. map()
+3. flatMap()  -- for object  // flatMapToInt /flatMapToLong/ flatMapToDouble   - for primitive
+4. sorted()
+5. distinct()
+6. limit()
+7. skip()
+8. takeWhile()
+9. dropWhile()
+10. peek()--use for debug
+
+// terminal operation
+
+1. forEach()
+2. .collect(Collectors.toList())
+3. anyMatch()
+4. allMatch()
+12. noneMatch()
+5. count
+6. reduce
+7.max
+8. min
+9. average().else(0.0)
+10. findAny()
+11. findFirst()
+13. toArray()
+14.sum()
+
+
+

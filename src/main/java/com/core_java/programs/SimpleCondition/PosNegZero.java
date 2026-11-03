@@ -1,0 +1,21 @@
+package com.core_java.programs.SimpleCondition;
+
+import java.util.Scanner;
+
+public class PosNegZero{
+    public static void main(String[] arg){
+
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter a number:");
+        int num = sc.nextInt();
+        if(num==0){
+            System.out.println("zero");
+        }else if(num>0){
+            System.out.println("Positive");
+        }else{
+            System.out.println("Negative");
+        }
+
+
+    }
+}

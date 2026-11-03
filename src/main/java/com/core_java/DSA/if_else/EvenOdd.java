@@ -1,0 +1,22 @@
+package com.core_java.DSA.if_else;
+
+import java.util.Scanner;
+
+public class EvenOdd {
+
+    public static void main(String [] args){
+
+        System.out.print("Enter your number : ");
+
+        Scanner sc = new Scanner(System.in);
+
+        int num = sc.nextInt();
+
+        if(num%2==0){
+           System.out.println("Even");
+        }else{
+            System.out.println("Odd");
+        }
+    }
+
+}
